@@ -3,7 +3,7 @@
 
 namespace Hillel\Maxmind;
 
-
+use Yuriy\Geo\Geoservice;
 use GeoIp2\Database\Reader;
 
 class MaxmindGeoService implements GeoService
