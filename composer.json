@@ -1,0 +1,19 @@
+{
+  "name": "yuraodessa/maxmind",
+  "autoload": {
+    "psr-4": {
+      "Hillel\\Maxmind\\": "./src"
+    }
+  },
+  "require": {
+    "illuminate/support": "^v8.33.1 ",
+    "geoip2/geoip2": "~2.0",
+    "yuraodessa/yuriygeo": "master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/yuralucky/geoInterface"
+    }
+  ]
+}
